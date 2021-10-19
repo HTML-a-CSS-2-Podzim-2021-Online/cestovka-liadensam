@@ -1,0 +1,36 @@
+/* NEWS */
+.news {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+  font-size: 0.7rem;
+}
+
+.news article {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  text-align: left;
+  background: var(--box-background);
+  border-radius: 3px;
+}
+
+.news article:hover {
+  transform: scale(1.02);
+  transition: transform 100ms;
+}
+
+.date {
+  margin-bottom: 0.5rem;
+  color: var(--light-grey);
+}
+
+.news__title {
+  color: var(--main-red);
+  margin-bottom: 0.5rem;
+}
+
+.news__content {
+  color: var(--box-text);
+}

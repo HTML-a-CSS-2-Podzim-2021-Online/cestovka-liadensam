@@ -1,0 +1,44 @@
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.header h1 {
+  /* font-size: clamp(20px, 4vw, 40px); */
+  color: var(--main-red);
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+/* MENU */
+.header__nav {
+  align-self: center;
+}
+
+.header__nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.header__nav button {
+  color: var(--main-red);
+  background-color: var(--white);
+  border: none;
+  outline: none;
+  padding: 1rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.header__nav button:hover {
+  color: var(--white);
+  background-color: var(--main-red);
+  border: none;
+  outline: none;
+  padding: 1rem;
+  border-radius: 3px;
+}

@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root {
+  --montserrat: "Montserrat", sans-serif;
+  --main-red: rgb(218, 9, 9);
+  --white: #fff;
+  --title-background: rgba(231, 236, 236, 0.87);
+  --box-background: rgb(231, 236, 236);
+  --box-text: rgb(56, 56, 56);
+  --light-grey: rgba(56, 56, 56, 0.829);
+  --footer-hover: rgba(202, 202, 202, 0.829);
+}
+
+body {
+  font-family: var(--montserrat);
+  display: grid;
+  grid-template-columns: 20% auto 20%;
+}
+
+body > * {
+  grid-column: 2;
+}

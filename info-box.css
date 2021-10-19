@@ -1,0 +1,38 @@
+/* info box section */
+
+.info-box {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 1.5rem 0;
+  margin-top: 2rem;
+}
+
+.info-box__text {
+  background: var(--box-background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.info-box__text:hover {
+  transform: scale(1.02);
+  transition: transform 100ms;
+}
+
+.info-box__text img {
+  margin-bottom: 0.5rem;
+}
+
+.info-box__title {
+  margin-bottom: 0.5rem;
+  color: var(--main-red);
+}
+
+.info-box__text p {
+  color: var(--box-text);
+  font-size: 0.7rem;
+}
